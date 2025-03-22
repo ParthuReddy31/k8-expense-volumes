@@ -36,7 +36,7 @@ spec:
         image: parthureddy3/backend:v1
         envFrom:
         - configMapRef:
-          name: backend
+            name: backend
 
 ---
 
